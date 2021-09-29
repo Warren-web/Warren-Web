@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Survey Form
+        </title>
+
+        <style>
+            body {
+                text-align: left;
+            }
+            .title {
+                font-family: 'Times New Roman', Times, serif;
+                text-align: center;
+            }
+            p.title {
+                font-size: 15px;
+            }
+            #comments {
+                font-size: 13px;
+            }
+            .survey label{
+                font-family: Arial, Helvetica, sans-serif;
+            }
+        </style>
+    </head>
+
+    <body>
+        <h1 class="title">
+            Survey Form
+        </h1>
+
+        <p class="title">
+            <em>
+                The purpose of this survey is to find out if there are similarities in people.
+            </em>
+        </p>
+
+        <div class="survey">
+            <label>
+                <h3>Name</h3>
+            </label>
+            <input type="text" name="text-field">
+        </div>
+
+        <br>
+
+        <div class="survey">
+            <label>
+                <h3>Age</h3>
+            </label>
+            <input id="age" type="number" name="age" step="1">
+        </div>
+
+        <br>
+
+        <div class="survey">
+            <label>
+                <h3>How sad are you?</h3>
+            </label>
+            <input id="height" type="range" name="height" min="1" max="5" step="1">
+        </div>
+
+        <br>
+
+        <div class="survey">
+            <label>
+                <h3>gmail</h3>
+            </label>
+            <input type="text" name="text-field">
+        </div>
+
+        <br>
+
+        <div class="survey">
+            <label>
+                <h3>Gender</h3>
+            </label>
+            <label for="female">female</label>
+            <input id="female" name="gender" type="radio" value="female">
+
+            <label for="male">male</label>
+            <input id="male" name="gender" type="radio" value="male">
+
+            <label for="non-binary">non binary</label>
+            <input id="non-binary" name="gender" type="radio" value="non">
+        </div>
+
+        <br>
+
+        <div class="survey">
+            <label>
+                <h3>What's your favorite food?</h3>
+            </label>
+            <select id="options" name="options">
+                <option value="pizza">pizza</option>
+                <option value="chicken">chicken</option>
+                <option value="lobster">lobster</option>
+                <option value="pasta">pasta</option>
+            </select>
+        </div>
+
+        <br>
+
+        <div class="survey">
+            <label>
+                <h3>Select the colors you like:</h3>
+            </label>
+            <label for="red">red</label>
+            <input id="red" name="red" type="checkbox" value="red">
+
+            <label for="orange">orange</label>
+            <input id="orange" name="orange" type="checkbox" value="orange">
+
+            <label for="yellow">yellow</label>
+            <input id="yellow" name="yellow" type="checkbox" value="yellow">
+
+            <label for="green">green</label>
+            <input id="green" name="green" type="checkbox" value="green">
+
+            <label for="blue">blue</label>
+            <input id="blue" name="blue" type="checkbox" value="blue">
+
+            <label for="violet">violet</label>
+            <input id="violet" name="violet" type="checkbox" value="violet">
+
+            <label for="black">black</label>
+            <input id="black" name="black" type="checkbox" value="black">
+
+            <label for="white">white</label>
+            <input id="white" name="white" type="checkbox" value="white">
+        </div>
+
+        <br>
+
+        <div class="survey">
+            <label>
+                <h3>Describe your personality:</h3>
+            </label>
+            <textarea 
+                id="personality" name="personality">
+            </textarea>
+        </div>
+
+        <br>
+
+
+
+        <p class="title">
+            <em>
+                Thank you for taking your time to complete this survey.
+            </em>
+        </p>
+    </body>
+</html>
